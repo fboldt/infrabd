@@ -1,0 +1,45 @@
+<h1>Projeto de Infraestrutura de Banco de Dados</h1>
+<p>O projeto é uma simulação de um ambiente de infraestrutura de banco de dados
+em uma empresa que presta serviços de banco de dados para outras empresas.
+Assim, os usuários, projetistas de banco de dados e desenvolvedores, 
+devem ter diferentes privilégios para seus respectivos bancos de dados.
+Portanto, este projeto tem regras restritas que devem ser respeitadas.</p>
+<p>O trabalho será entregue na forma de arquivos txt contendo todos os comandos
+utilizados para gerar o projeto. Diferentes arquivos devem ser usados. 
+Cada arquivo deve conter os comandos feitos de um determinado usuário.
+Estes arquivos serão avaliados durante a entrevista e precisam ser suficientes
+para refazer todo o trabalho usando ctrl+c e ctrl+v.</p>
+<ol>
+<li>Com o usuário root crie um usuário com poderes ilimitados.</li>
+<li>Com o usuário criado no item anterior crie dois bancos de dados e 
+um usuário com poderes absolutos para cada BD.</li>
+<p>Observação.: Escolha com cuidado o tema dos BDs, porque eles deverão ser integrados
+no final do trabalho. Exemplo: Um BD pode ser o controle de notas de alunos de uma escola particular
+enquanto o outro pode ser o controle de pagamento das mensalidades. 
+Em algum momento estes dados deverão ser integrados.</p>
+<li>Com o usuário poderoso do primeiro banco crie pelo menos cinco usuários com
+diferentes privilégios, conforme as retrições abaixo.
+	<ol>
+	<li>Nenhum dos itens abaixo pode usar um usuário poderoso. 
+	Os privilégios de cada tarefa devem ser mínimos para o usuário que a executa.</li>
+	<li>Modele um BD com pelo menos três tabelas relacionadas. 
+	Faça os modelos conceitual e lógico. 
+	Implemente este BD com usuário que tenha o mínimo de privilégios para tal.</li>
+	<li>Faça operações de inserção, alteração, remoção e consultas com diferentes usuários.</li>
+	<li>Use comandos com usuários que não tem permissão para executar estes comandos.
+	Este comandos NÃO podem ser executados.</li>
+	<li>Crie Views (Visões).</li>
+	</ol>
+</li>
+<li>Para o segundo BD, faça algo parecido com o item anterior, mas com algumas diferenças 
+nas permissões do usuário e, é claro, modele um BD diferente. 
+Mas lembre-se que este BD terá que se integrar ao BD anterior em algum momento.</li>
+<li>Utilizando o usuário poderoso, crie um usuário capaz de selecionar e inserir
+dados nos dois BDs.</li>
+	<ol>
+	<li>Crie consultas e Views que integrem os dois BDs com o novo usuário.</li>
+	<li>Insira dados em um BD dados retirados do outro BD.</li>
+	<li>Tente alterar e remover valores do BDs. Este usuário não poderá conseguir
+	executar estes comandos.</li>
+	</ol>
+</ol>
